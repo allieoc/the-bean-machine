@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/reset.css">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/18795bf9d8.js" crossorigin="anonymous"></script>
+  <title>The Bean Machine</title>
+
+  <script type="text/javascript">
+    var image_tracker = 'down-arrow';
+    function change() {
+      var image = document.getElementById('down-arrow');
+      if (image_tracker == 'down-arrow') {
+        image.src = '/assets/up-arrow.svg';
+        image_tracker = 'up-arrow';
+      } else {
+        image.src = '/assets/down-arrow.svg';
+        image_tracker = 'down-arrow';
+      }
+    }
+  </script>
+  
+</head>
+
+<body>
+  <header>
+    <!-- nav -->
+    <div class="nav">
+      <a href="/index.html" class="home-nav">The Bean Machine</a>
+      <div class="nav-menu">
+        <a class="nav-link" href="index.html#about">About</a>
+        <a class="nav-link" href="/selection.html">Selection</a>
+        <button class="login">LOG IN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h2>Selection</h2>
+    <div class="sort-price">
+      <p class="sort">Sort</p>
+      <button class="price">PRICE<img src="/assets/down-arrow.svg" class="down-arrow" id="down-arrow"
+          onclick="change();"></button>
+    </div>
+    <div class="selection-container">
+      <div class="selection-item">
+        <p class="available">Available</p>
+        <img src="/assets/beans-1.png">
+        <div class="selection-item-description">
+          <p>Brazilian Single Blend</p>
+          <p>$24</p>
+        </div>
+        <p class="origin">Origin</p>
+        <button>BUY</button>
+      </div>
+      <div class="selection-item">
+        <p class="available">Available</p>
+        <img src="/assets/beans-2.png">
+        <div class="selection-item-description">
+          <p>Brazilian Single Blend</p>
+          <p>$24</p>
+        </div>
+        <p class="origin">Origin</p>
+        <button>BUY</button>
+      </div>
+      <div class="selection-item">
+        <p class="available">Available</p>
+        <img src="/assets/beans-3.png">
+        <div class="selection-item-description">
+          <p>Brazilian Single Blend</p>
+          <p>$24</p>
+        </div>
+        <p class="origin">Origin</p>
+        <button>BUY</button>
+      </div>
+
+      <div class="selection-item">
+        <p class="available">Available</p>
+        <img src="/assets/beans-1.png">
+        <div class="selection-item-description">
+          <p>Brazilian Single Blend</p>
+          <p>$24</p>
+        </div>
+        <p class="origin">Origin</p>
+        <button>BUY</button>
+      </div>
+      <div class="selection-item">
+        <p class="available">Available</p>
+        <img src="/assets/beans-2.png">
+        <div class="selection-item-description">
+          <p>Brazilian Single Blend</p>
+          <p>$24</p>
+        </div>
+        <p class="origin">Origin</p>
+        <button>BUY</button>
+      </div>
+      <div class="selection-item">
+        <p class="available">Available</p>
+        <img src="/assets/beans-3.png">
+        <div class="selection-item-description">
+          <p>Brazilian Single Blend</p>
+          <p>$24</p>
+        </div>
+        <p class="origin">Origin</p>
+        <button>BUY</button>
+      </div>
+      <div class="selection-item">
+        <p class="available">Available</p>
+        <img src="/assets/beans-1.png">
+        <div class="selection-item-description">
+          <p>Brazilian Single Blend</p>
+          <p>$24</p>
+        </div>
+        <p class="origin">Origin</p>
+        <button>BUY</button>
+      </div>
+      <div class="selection-item">
+        <p class="available">Available</p>
+        <img src="/assets/beans-2.png">
+        <div class="selection-item-description">
+          <p>Brazilian Single Blend</p>
+          <p>$24</p>
+        </div>
+        <p class="origin">Origin</p>
+        <button>BUY</button>
+      </div>
+      <div class="selection-item">
+        <p class="available">Available</p>
+        <img src="/assets/beans-3.png">
+        <div class="selection-item-description">
+          <p>Brazilian Single Blend</p>
+          <p>$24</p>
+        </div>
+        <p class="origin">Origin</p>
+        <button>BUY</button>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <p>Find us on social media</p>
+    <br>
+    <img src="/assets/social-1.svg">
+    <img src="/assets/social-2.svg">
+    <img src="/assets/social-3.svg">
+  </footer>
+
+</body>

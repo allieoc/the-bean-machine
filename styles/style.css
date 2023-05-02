@@ -1,0 +1,278 @@
+/* FOR WHOLE PAGE */
+
+h1, h2 {
+ font-family: 'Nunito', sans-serif;
+}
+
+p, a {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+}
+
+html,
+body {
+  margin: 8px 30px;
+  padding: 0;
+}
+
+p {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+a {
+  color: #FF5678;
+}
+
+/* HEADER */
+
+header{
+  padding-bottom: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  align-items: center;
+  flex: 1 0 auto;
+  margin: 10px 0px 40px 0px;
+}
+
+.home-nav {
+  color: #FF5678;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.login {
+  background-color: #FF5678;
+  color: white;
+  padding: 4px 18px;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  letter-spacing: 2px;
+}
+
+.submit-arrow {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  background-color: #FF5678;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.subtitle {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+input {
+  border: none;
+  background-color: #F6F2EF;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  width: 180px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px black solid;
+  padding-bottom: 20px;
+}
+
+.banner-titles-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-drawing {
+  width: 80%;
+  max-width: 700px;
+  min-width: 150px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 12px;
+}
+
+.search-bar {
+  display: flex;
+  margin-top: 20px;
+  gap: 8px;
+}
+
+button img {
+  height: 12px;
+  width: 12px;
+}
+
+/* MAIN */
+
+h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.about {
+  padding: 20px 0px 40px 0px;
+  width: 80%;
+}
+
+.special-offers {
+  padding: 40px 0px;
+  border-top: 1px black solid;
+}
+
+.special-offers img {
+  width: 125px; 
+}
+
+.special-offers button, .selection-container button {
+  background-color: #FF5678;
+  color: white;
+  padding: 4px 18px;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  letter-spacing: 2px;
+  width: 60%;
+  font-size: 10px;
+}
+
+.special-offers-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+}
+
+.special-offers-item{
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F2EF;
+  padding: 15px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-around;
+  height: 170px;
+  margin-bottom: 20px;
+}
+
+
+/* SELECTION */
+
+.sort-price {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sort {
+  padding-right: 10px;
+}
+
+.price {
+  padding: 4px 5px;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  letter-spacing: 2px;
+  width: 100px;
+  font-size: 10px;
+  background-color: #F6F2EF;
+  color: black;
+  font-weight: 400;
+  
+}
+
+.down-arrow {
+  width: 10px;
+  position: relative;
+  top: 2px;
+  left: 10px;
+}
+
+.selection-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+}
+
+.selection-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F2EF;
+  padding: 15px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 180px;
+  position: relative;
+}
+
+.selection-container img {
+  width: 100%; 
+}
+
+.available {
+  background-color: #149770;
+  color: white;
+  border-radius: 10px 0px 0px 10px;
+  padding: 1px 10px;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.selection-item-description {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.origin {
+  font-weight: 400;
+  align-self: flex-start;
+}
+
+
+/* FOOTER */
+
+footer p {
+  font-size: 10px;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+footer img {
+  width: 20px;
+  padding: 0px 8px;
+}
